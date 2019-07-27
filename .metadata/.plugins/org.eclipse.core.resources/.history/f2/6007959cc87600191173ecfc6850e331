@@ -1,0 +1,21 @@
+package com.itheima.dao;
+
+import java.util.List;
+
+import com.itheima.domain.Book;
+
+public interface BookDao {
+	
+	/**
+	 * 查询所有图书
+	 * @return
+	 * @throws Exception 
+	 */
+	public List<Book> findAllBooks() throws Exception;
+	
+	/**
+	 * 添加图书
+	 * @throws Exception
+	 */
+	public void addBook() throws Exception;
+}

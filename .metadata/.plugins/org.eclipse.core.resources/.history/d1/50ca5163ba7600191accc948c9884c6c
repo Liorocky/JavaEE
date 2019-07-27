@@ -1,0 +1,18 @@
+package com.itheima.service.impl;
+
+import java.util.List;
+
+import com.itheima.dao.impl.BookDaoImpl;
+import com.itheima.domain.Book;
+import com.itheima.service.BookService;
+
+public class BookServiceImpl implements BookService {
+
+	@Override
+	public List<Book> findAllBooks() {
+		BookDaoImpl bookDao = new BookDaoImpl();
+		
+		return null;
+	}
+
+}

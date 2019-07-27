@@ -1,0 +1,23 @@
+package com.itheima.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import com.itheima.dao.UserDao;
+import com.itheima.domain.User;
+import com.itheima.utils.DBUtils;
+
+public class UserDaoImpl implements UserDao {
+
+	@Override
+	public void addUser(User user) throws Exception {
+		Connection conn = null;
+		PreparedStatement ps = null;
+		
+		conn = DBUtils.getConnection();
+		ps = conn.prepareStatement("INSERT INTO users(username,PASSWORD,email,birthay) VALUES(?,?,?,?)");
+		ps.setString(1, user.getUsername());
+	
+	}
+
+}

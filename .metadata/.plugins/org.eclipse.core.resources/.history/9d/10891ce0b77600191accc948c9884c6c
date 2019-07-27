@@ -1,0 +1,7 @@
+package com.itheima.dao.impl;
+
+public class Snippet {
+	
+	INSERT into book values("1001","《活着》",25,1000,"小说","经典");
+}
+

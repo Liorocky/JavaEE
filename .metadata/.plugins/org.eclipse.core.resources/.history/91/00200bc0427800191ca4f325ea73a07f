@@ -1,0 +1,76 @@
+package com.itheima.web.servlet;
+
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Map;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.beanutils.BeanUtils;
+
+import com.itheima.domain.Book;
+
+/**
+ * Servlet implementation class FindProductByManyConditionServlet
+ */
+@WebServlet("/FindProductByManyConditionServlet")
+public class FindProductByManyConditionServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public FindProductByManyConditionServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		request.setCharacterEncoding("UTF-8");
+		
+		//获取表单数据
+//		Book book = new Book();
+//		
+//		try {
+//			BeanUtils.populate(book, request.getParameterMap());
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//		}
+		
+		//调用业务逻辑
+		String sql = "select * from book where ";
+		
+		Map<String, String[]> map = request.getParameterMap();
+		Map<String, String[]> newMap;
+		
+		for (String key : map.keySet()) {
+			if (!"".equals(map.get(key)[0])) {
+				if (!key.equals("search")) {
+					sql += key + "="+map.get(key)[0]+"and";
+				}
+			}
+		   System.out.println("key= "+ key + " and value= " + map.get(key)[0]);
+		  }
+		System.out.println(sql);
+//		System.out.println(book.getName());
+		
+		//分发转向
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+
+}

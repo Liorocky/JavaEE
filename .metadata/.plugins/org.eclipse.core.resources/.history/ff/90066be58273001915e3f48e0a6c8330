@@ -1,0 +1,16 @@
+package com.itheima.service.impl;
+
+import com.itheima.domain.User;
+import com.itheima.service.UserService;
+
+public class UserServiceImpl implements UserService {
+
+	UserDao userDao = new UserDaoImpl();
+	@Override
+	public void register(User user) throws Exception {
+		
+		
+		
+	}
+
+}

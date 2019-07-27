@@ -1,0 +1,28 @@
+package com.itheima.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.text.SimpleDateFormat;
+
+import com.itheima.dao.UserDao;
+import com.itheima.domain.User;
+import com.itheima.utils.DBUtils;
+
+public class UserDaoImpl implements UserDao {
+
+	@Override
+	public void addUser(User user) throws Exception {
+		Connection conn = null;
+		PreparedStatement ps = null;
+		
+		conn = DBUtils.getConnection();
+		ps = conn.prepareStatement("INSERT INTO users(username,PASSWORD,email,birthay) VALUES(?,?,?,?)");
+		ps.setString(1, user.getUsername());
+		ps.setString(2, user.getPassword());
+		ps.setString(3, user.getEmail());
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+		ps.setString(4, sdf.format(user.getBirthday());
+	
+	}
+
+}

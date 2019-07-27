@@ -1,0 +1,46 @@
+package com.itheima.service.impl;
+
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import java.nio.file.attribute.UserDefinedFileAttributeView;
+import java.util.List;
+
+import com.itheima.domain.User;
+import com.itheima.service.UserService;
+
+public class UserServiceImpl implements UserService, UserDefinedFileAttributeView {
+
+	@Override
+	public String name() {
+		return null;
+	}
+
+	@Override
+	public List<String> list() throws IOException {
+		return null;
+	}
+
+	@Override
+	public int size(String name) throws IOException {
+		return 0;
+	}
+
+	@Override
+	public int read(String name, ByteBuffer dst) throws IOException {
+		return 0;
+	}
+
+	@Override
+	public int write(String name, ByteBuffer src) throws IOException {
+		return 0;
+	}
+
+	@Override
+	public void delete(String name) throws IOException {
+	}
+
+	@Override
+	public void register(User user) throws Exception {
+	}
+
+}

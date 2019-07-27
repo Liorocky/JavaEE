@@ -1,0 +1,8 @@
+package com.itheima.util;
+
+public class UUIDUtil {
+	public String getUUID() {
+		return UUID.randomUUID();
+		
+	}
+}

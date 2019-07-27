@@ -1,0 +1,39 @@
+package com.itheima.service.impl;
+
+import java.util.List;
+
+import com.itheima.dao.impl.BookDaoImpl;
+import com.itheima.domain.Book;
+import com.itheima.service.BookService;
+
+public class BookServiceImpl implements BookService {
+	BookDaoImpl bookDao = new BookDaoImpl();
+
+	@Override
+	public List<Book> findAllBooks() throws Exception {
+		return bookDao.findAllBooks();
+
+	}
+
+	@Override
+	public void addBook(Book book) throws Exception {
+		bookDao.addBook(book);
+	}
+
+	@Override
+	public Book findBookById(String id) throws Exception {
+		return bookDao.findBookById(id);
+	}
+
+	@Override
+	public Book updateBookById(Book book) throws Exception {
+		return bookDao.updateBookById(book);
+	}
+
+	@Override
+	public void deleteBookById(String id) throws Exception {
+	}
+
+
+
+}

@@ -1,0 +1,11 @@
+INDEX VERSION 1.131
+D:\Workspace\JaveEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\305983465.index
+\day12_User_00\src
+D:\Workspace\JaveEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\708286464.index
+\day10_JSP_00\src
+D:\Workspace\JaveEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2552300482.index
+\day14_StudentManager_00\src
+D:\Workspace\JaveEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3667925572.index
+\day14_StudentManager_00\src
+D:\Workspace\JaveEE\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4258601048.index
+\day11_JSP_00\src

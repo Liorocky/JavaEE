@@ -1,0 +1,9 @@
+package com.itheima.dao;
+
+public interface BookDao {
+	
+	/**
+	 * 查询所有图书
+	 */
+	public List<Book> findAllBooks();
+}

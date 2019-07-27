@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="product:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d65347a1-be0a-4d6b-ad23-1d6f54aeeab8" name="Default Changelist" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/product_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/c3p0-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/dao/OrderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/dao/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/domain/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/domain/PageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/exception/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/utils/C3P0Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/utils/ManagerThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/utils/SendJMail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/web/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/ActiveServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/CheckImgServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/ModifyUserInfoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/MyAccountServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/PageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/activation.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/commons-collections-3.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/commons-dbutils-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/commons-fileupload-1.2.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/commons-io-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/ezmorph-1.0.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/jstl.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/mail.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/lib/standard.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/new_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/userPrivilegeTag.tld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/activesuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/ad/index_ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/ad/myad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/ad/page_ad.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/css/Style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/css/dtree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/css/left.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/000.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/2spcr2x158.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/aaa.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/about.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/ad_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/ad_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/ad_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/back1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/bottom_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/bt_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/bt_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/bt_icon_export.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_add.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_alert.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_bg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_cancel.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_clock.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_close01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_exit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_help.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_home.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_modi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_phone.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_phone01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_print.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_save.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_search.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_search01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/button_view.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/dot.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/hot2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/hotel_dire_arrowc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/i_del.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/i_edit.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/i_ok.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/icon-calendar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/icon-delete.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/icon-pencil-x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/icon-pencil.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/icon_time.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/icon_upfolder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/icon_zoom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/index_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/loginbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/logintitle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_002.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_003.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_05a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_05b.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_05c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/mis_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/modernliving.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/modernliving.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/open.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/optionbgOff.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/optionbgOn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/prev.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/shim.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tablehead.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/time.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/top.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/top_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/top_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/top_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/top_100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/top_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/base.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/cd.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/empty.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/folderopen.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/globe.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/imgfolder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/join.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/joinbottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/minusbottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/musicfolder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/nolines_minus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/nolines_plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/page.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/plus.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/plusbottom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/question.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/tree/trash.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/images/zoom.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/jquery/calendar-green.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/jquery/calendar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/jquery/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/jquery/jquery-1.4.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/jquery/jquery.datepick-zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/jquery/jquery.datepick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/jquery/jquery.datepick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/js/check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/js/dtree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/js/public.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/login/bottom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/login/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/login/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/login/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/login/welcome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/orders/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/orders/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/orders/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/products/add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/products/download.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/products/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/products/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/admin/products/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/abc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/bc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/bcc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/beijingnongshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/bh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/bj.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/ccb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/cib.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/cmb.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/cmbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/dy.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/gf.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/guangda.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/hx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/icbc.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/nanjing.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/ningbo.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/pingan.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/post.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/sfz.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/sh.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/shpd.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/zheshang.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bank_img/zx.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/TS9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/bookcover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/code.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/dayongxiaohua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/dulala.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/euro.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/fish.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/java2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/ngcn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/oneplant.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/photog.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/subwayinshanghai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/think.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/travelbook.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/bookcover/tripcn.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/cart.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/confirm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/createOrderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/delOrderSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/error/privilege.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/IconTexto_WebDev_009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/billboard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/bottomlogo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/botton_gif_025.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/buy.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/buy1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/buy2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/buy3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/buybutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/car_step8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/cart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/check_use.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/error.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/finalbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/gif53_029.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/gwc_buy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/gwc_jx.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/hottitle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/index.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/info.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/infobg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/loginbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/loginbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/loginline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/logintitle.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/menubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/miniicon.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/miniicon2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/miniicon3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/orderbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/productlist.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/productlist.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/serchbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/signup.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/signupbutton.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/images/success.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/js/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/menu_search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/modifyUserInfoSuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/modifyuserinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/myAccount.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/orderInfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/orderlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/pay.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/paysuccess.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/product_info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/product_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/web/registersuccess.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_HttpSession_01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day10_HttpSession_01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day11_JSP_00.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day11_JSP_00.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_User_00.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day12_User_00.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day14_StudentManager_00/build/classes/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/META-INF/day14_StudentManager_00.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/admin/products/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/admin/products/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/com/itheima/dao/impl/BookDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/com/itheima/dao/impl/BookDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/com/itheima/domain/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/com/itheima/domain/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/com/itheima/web/servlet/AddBookServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/com/itheima/web/servlet/AddBookServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/product_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/product_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/classes/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/web.xml/admin/products/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/web.xml/admin/products/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/web.xml/product_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/web.xml/product_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/web.xml/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/WEB-INF/web.xml/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/admin/products/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/admin/products/add.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/product_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/product_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/product_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/day14_StudentManager_00_Web_exploded/product_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day01_eesy_01mybatis/src/test/java/com/itheima/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day01_eesy_01mybatis/src/test/java/com/itheima/test/MybatisTest.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/day06_JDBC_00/bin/" />
+    <ignored path="$PROJECT_DIR$/day07_XML_00/build/classes/" />
+    <ignored path="$PROJECT_DIR$/day08_Servlet_00/build/classes/" />
+    <ignored path="$PROJECT_DIR$/day09_HttpServeltResponse_00/build/classes/" />
+    <ignored path="$PROJECT_DIR$/day10_Cookie_00/build/classes/" />
+    <ignored path="$PROJECT_DIR$/day10_HttpSession_01/build/classes/" />
+    <ignored path="$PROJECT_DIR$/day11_JSP_00/build/classes/" />
+    <ignored path="$PROJECT_DIR$/day12_User_00/build/classes/" />
+    <ignored path="$PROJECT_DIR$/day14_StudentManager_00/build/classes/" />
+    <ignored path="$PROJECT_DIR$/Servers/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JaveEE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/dao/ProductDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/dao/OrderDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/utils/ManagerThreadLocal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/domain/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/domain/PageBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/domain/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/service/BookService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/service/impl/BookServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="903">
+              <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pnum</find>
+      <find>onclick</find>
+      <find>session</find>
+      <find>user_msg</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/web/servlet/CkEmailServlet.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/WebContent/register.jsp" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/web/servlet/BookListServlet.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/dao/BookDao.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/service/impl/BookServiceImpl.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/service/BookService.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/WebContent/menu_search.jsp" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/web/servlet/AddCartServlet.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/web/servlet/ChangeNumServlet.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/WebContent/cart.jsp" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/web/servlet/SearchBookAJAXServlet.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00.iml" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/domain/Book.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/dao/impl/BookDaoImpl.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/WebContent/admin/products/add.jsp" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/web/servlet/AddBookServlet.java" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/WebContent/product_list.jsp" />
+        <option value="$PROJECT_DIR$/day14_StudentManager_00/WebContent/product_info.jsp" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/web/filter/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/product/web/index.jsp" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/utils/C3P0Util.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/utils/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/domain/User.java" />
+        <option value="$PROJECT_DIR$/product/src/c3p0-config.xml" />
+        <option value="$PROJECT_DIR$/product/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/utils/CheckImgServlet.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/CheckImgServlet.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/exception/UserException.java" />
+        <option value="$PROJECT_DIR$/product/web/register.jsp" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/RegisterServlet.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/utils/SendJMail.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/ActiveServlet.java" />
+        <option value="$PROJECT_DIR$/product/web/login.jsp" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/product/web/head.jsp" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/MyAccountServlet.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/ModifyUserInfoServlet.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/service/UserService.java" />
+        <option value="$PROJECT_DIR$/product/web/modifyuserinfo.jsp" />
+        <option value="$PROJECT_DIR$/product/web/myAccount.jsp" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/LogoutServlet.java" />
+        <option value="$PROJECT_DIR$/product/web/menu_search.jsp" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/domain/Order.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/service/ManagerThreadLocal.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/utils/ManagerThreadLocal.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/PageServlet.java" />
+        <option value="$PROJECT_DIR$/product/src/com/itheima/product/dao/ProductDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="140" />
+    <option name="y" value="937" />
+    <option name="width" value="1216" />
+    <option name="height" value="686" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/product/src/com/itheima/product/utils" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24153167" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.itheima.product.exception" />
+      <recent name="com.itheima.domain" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.product.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/product/src/com/itheima/product/utils" />
+      <recent name="$PROJECT_DIR$/product/src/com/itheima/product/service" />
+      <recent name="$PROJECT_DIR$/product/src/com/itheima/product/domain" />
+      <recent name="$PROJECT_DIR$/product/src/com/itheima/product/dao" />
+      <recent name="$PROJECT_DIR$/product/web/WEB-INF/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.product">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.30" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_JaveEE" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3405" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="product" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="product:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/product_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_30_JaveEE" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3405" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="product:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.20" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="day14_StudentManager_00:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/day14_StudentManager_00_Web_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_JaveEE" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3405" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="day14_StudentManager_00:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.tomcat9" />
+      <item itemvalue="Tomcat Server.product" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d65347a1-be0a-4d6b-ad23-1d6f54aeeab8" name="Default Changelist" comment="" />
+      <created>1558192031892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558192031892</updated>
+      <workItem from="1558192082897" duration="1122000" />
+      <workItem from="1558224016934" duration="11093000" />
+      <workItem from="1558278502862" duration="303000" />
+      <workItem from="1558400969535" duration="426000" />
+      <workItem from="1558401445386" duration="86000" />
+      <workItem from="1558401577352" duration="4508000" />
+      <workItem from="1558406965448" duration="1741000" />
+      <workItem from="1558531149054" duration="793000" />
+      <workItem from="1558532348877" duration="1302000" />
+      <workItem from="1558533681914" duration="5862000" />
+      <workItem from="1558568543094" duration="8814000" />
+      <workItem from="1558595693943" duration="4412000" />
+      <workItem from="1558655641923" duration="6580000" />
+      <workItem from="1558744009695" duration="2708000" />
+      <workItem from="1558747269456" duration="2451000" />
+      <workItem from="1558751773385" duration="607000" />
+      <workItem from="1559178314938" duration="1272000" />
+      <workItem from="1559782085665" duration="602000" />
+      <workItem from="1559956766665" duration="1944000" />
+      <workItem from="1559958741436" duration="685000" />
+      <workItem from="1559961833699" duration="2814000" />
+      <workItem from="1560041610144" duration="2824000" />
+      <workItem from="1560904735924" duration="8720000" />
+      <workItem from="1560918703783" duration="3236000" />
+      <workItem from="1561251025429" duration="13327000" />
+      <workItem from="1561297176751" duration="6006000" />
+      <workItem from="1561303295447" duration="178000" />
+      <workItem from="1561314560991" duration="2595000" />
+      <workItem from="1562205516633" duration="2616000" />
+      <workItem from="1563848483494" duration="57000" />
+      <workItem from="1563848626000" duration="1201000" />
+      <workItem from="1564239760986" duration="11000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1559956869934</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559956869934</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="100896000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="768" width="1440" height="900" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.81984335" visible="true" weight="0.23819743" />
+      <window_info id="Structure" order="1" sideWeight="0.375" side_tool="true" weight="0.18669528" />
+      <window_info id="Web" order="2" sideWeight="0.18015666" side_tool="true" visible="true" weight="0.23819743" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.375" side_tool="true" weight="0.18669528" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32898173" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985694" weight="0.31462142" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.2845953" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50143063" side_tool="true" weight="0.31462142" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32637075" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32974428" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3275488" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3295129" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/web/servlet/AddBookServlet.java</url>
+          <line>33</line>
+          <properties field="serialVersionUID" class="com.itheima.web.servlet.AddBookServlet" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/day14_StudentManager_00/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12_User_00/src/com/itheima/web/servlet/RegServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="23" column="45" lean-forward="true" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12_User_00/src/com/itheima/web/servlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day11_JSP_00/src/com/itheima/servlet/DoLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/product.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_HttpSession_01/src/com/itheima/servlet/ShowAllBook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/WEB-INF/new_words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/WEB-INF/userPrivilegeTag.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/utils/CheckImgServlet.java" />
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/exception/UserException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#337#338#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/web/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/utils/C3P0Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#644#645#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#886#887#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#992#993#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+            <element signature="e#1164#1165#0" expanded="true" />
+            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1282#1283#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1360#1361#0" expanded="true" />
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1442#1443#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1521#1522#0" expanded="true" />
+            <element signature="e#1554#1555#0" expanded="true" />
+            <element signature="e#1606#1607#0" expanded="true" />
+            <element signature="e#1650#1651#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1708#1709#0" expanded="true" />
+            <element signature="e#1748#1749#0" expanded="true" />
+            <element signature="e#1780#1781#0" expanded="true" />
+            <element signature="e#1809#1810#0" expanded="true" />
+            <element signature="e#1837#1838#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="e#1910#1911#0" expanded="true" />
+            <element signature="e#1945#1946#0" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2028#2029#0" expanded="true" />
+            <element signature="e#2072#2073#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/product/web/WEB-INF/lib/mail.jar!/javax/mail/Address.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/product/web/WEB-INF/lib/mail.jar!/javax/mail/internet/MimeMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/utils/SendJMail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="59" lean-forward="true" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/registersuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="33" column="75" selection-start-line="33" selection-start-column="75" selection-end-line="33" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/CheckImgServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="86" column="45" selection-start-line="86" selection-start-column="45" selection-end-line="86" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/ActiveServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/TimerThread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="44" column="42" lean-forward="true" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="28" column="60" selection-start-line="28" selection-start-column="60" selection-end-line="28" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="100" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-tomcat-9.0.20/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="253" selection-start-line="253" selection-end-line="253" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/MyAccountServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/ModifyUserInfoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/modifyuserinfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="38" column="127" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/myAccount.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="40" column="29" lean-forward="true" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="58" column="22" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="62" selection-start-line="4" selection-start-column="62" selection-end-line="4" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/web/menu_search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="88" column="60" lean-forward="true" selection-start-line="88" selection-start-column="60" selection-end-line="88" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/web/servlet/PageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="21" selection-start-column="8" selection-end-line="40" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/service/OrderService.java" />
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/service/ManagerThreadLocal.java" />
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/web/selvlet/PageServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1491">
+          <caret line="78" column="9" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/dao/OrderItemDao.java" />
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/utils/ManagerThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/domain/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/domain/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/domain/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="48" column="3" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product/src/com/itheima/product/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/service/BookService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14_StudentManager_00/src/com/itheima/service/impl/BookServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="48" column="11" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>product:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24153167" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (product)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24153167" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24153167" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11+13</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24153167" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>product</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24153167" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.24153167" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

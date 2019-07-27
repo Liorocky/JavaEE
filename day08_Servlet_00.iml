@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://C:/Program Files/Apache Software Foundation/apache-tomcat-8.5.30/lib/servlet-api.jar!/" />
+    <conelement value="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5" />
+    <conelement value="org.eclipse.jst.j2ee.internal.web.container" />
+    <conelement value="org.eclipse.jst.j2ee.internal.module.container" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/day08_Servlet_00/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/day08_Servlet_00/WebContent/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/day08_Servlet_00/WebContent" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/day08_Servlet_00/build/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/day08_Servlet_00">
+      <sourceFolder url="file://$MODULE_DIR$/day08_Servlet_00/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library" exported="">
+      <library name="servlet-api.jar">
+        <CLASSES>
+          <root url="jar://C:/Program Files/Apache Software Foundation/apache-tomcat-8.5.30/lib/servlet-api.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="https://docs.oracle.com/javaee/7/api/" />
+        </JAVADOC>
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

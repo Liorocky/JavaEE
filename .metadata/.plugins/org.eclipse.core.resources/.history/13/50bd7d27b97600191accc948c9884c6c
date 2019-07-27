@@ -1,0 +1,19 @@
+package com.itheima.dao.impl;
+
+import java.util.List;
+
+import org.apache.commons.dbutils.QueryRunner;
+
+import com.itheima.dao.BookDao;
+import com.itheima.domain.Book;
+
+public class BookDaoImpl implements BookDao {
+
+	@Override
+	public List<Book> findAllBooks() {
+		QueryRunner qr = new QueryRunner(c3p0Util.getConnection());
+		
+		return null;
+	}
+
+}

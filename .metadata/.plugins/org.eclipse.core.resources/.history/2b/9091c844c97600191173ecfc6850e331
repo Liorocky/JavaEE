@@ -1,0 +1,30 @@
+package com.itheima.dao.impl;
+
+import java.util.List;
+
+import org.apache.commons.dbutils.QueryRunner;
+import org.apache.commons.dbutils.handlers.BeanListHandler;
+
+import com.itheima.dao.BookDao;
+import com.itheima.domain.Book;
+import com.itheima.util.C3P0Util;
+
+public class BookDaoImpl implements BookDao {
+
+	/**
+	 * 查找所有图书
+	 */
+	@Override
+	public List<Book> findAllBooks() throws Exception {
+		QueryRunner qr = new QueryRunner(C3P0Util.getDataSource());
+		return qr.query("select * from book", new BeanListHandler<Book>(Book.class));
+		
+	}
+
+	@Override
+	public void addBook(Book book) throws Exception {
+		QueryRunner qr = new QueryRunner(C3P0Util.getDataSource());
+		qr.update("insert into book values(?,?,?,?)", book.getId(), book.getName(), book.getPrice(), book.getAmount());
+	}
+
+}
